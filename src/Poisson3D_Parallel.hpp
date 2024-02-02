@@ -275,7 +275,7 @@ protected:
 
 
   void
-  write_csv(const long int elapsed_time, int iterations, double cond_number) const;
+  write_csv(const long int elapsed_time, int iterations, double cond_number,TrilinosWrappers::PreconditionAMG::size_type memoryUsage) const;
 
   static std::string
   extractFileName(const std::string& filePath);
